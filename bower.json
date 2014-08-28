@@ -1,0 +1,7 @@
+{
+  "name"          : "MIDI.js Soundfonts",
+  "version"       : "0.2.1",
+  "homepage"      : "https://github.com/StrawnPoint04/midi-js-soundfonts",
+  "main"          : "FluidR3_GM/*/*",
+  "license"       : "CC BY 3.0"
+}
