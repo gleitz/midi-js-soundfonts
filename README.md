@@ -10,7 +10,9 @@ Soundfonts Available
 - Fluid-Soundfont
     - Generated from [FluidR3_GM.sf2](http://www.musescore.org/download/fluid-soundfont.tar.gz) (141 MB uncompressed)
     - Released under [Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/)
-
+- Musyng Kite Soundfont
+    - Generated from [Musyng Kite.sfpack](http://www.synthfont.com/punbb/viewtopic.php?id=167) (1 GB uncompressed)
+    - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
 Notes
 -----
 
