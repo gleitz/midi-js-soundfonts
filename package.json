@@ -1,0 +1,23 @@
+{
+  "name": "midi-js-soundfonts",
+  "version": "1.0.0",
+  "description": "[MIDI.js](https://github.com/mudcube/MIDI.js) is a fantastic library for MIDI sequencing and playback in Javascript. It comes packaged with a [soundfont-generator](https://github.com/mudcube/MIDI.js/blob/master/soundfont-generator/ruby/soundfont_builder.rb) that is unfortuantely a little difficult to get up and running (requires installation of Ruby, Node.js, FluidSynth, Lame, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleitz/midi-js-soundfonts.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/gleitz/midi-js-soundfonts/issues"
+  },
+  "homepage": "https://github.com/gleitz/midi-js-soundfonts#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
