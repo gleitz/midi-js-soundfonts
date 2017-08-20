@@ -1,0 +1,28 @@
+{ "name": "midijs-soundfonts-gleitz",
+  "version": "0.2.1",
+  "description": "Pre-rendered General MIDI soundfonts that can be used immediately with MIDI.js",
+  "keywords": [ "midi", "soundfont" ],
+
+  "author": "Benjamin Gleitzman <gleitz@mit.edu>",
+  "homepage": "https://github.com/gleitz/midi-js-soundfonts/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleitz/midi-js-soundfonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gleitz/midi-js-soundfonts/issues"
+  },
+  "contributors": [
+    "M.K. (https://github.com/mk-pmb)",
+  ],
+
+  "private": false,
+  "license": null,
+
+  "main": "FluidR3_GM/*/*",
+
+
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
