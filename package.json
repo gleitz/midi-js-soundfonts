@@ -7,10 +7,10 @@
   "homepage": "https://github.com/gleitz/midi-js-soundfonts/#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gleitz/midi-js-soundfonts/.git"
+    "url": "git+https://github.com/gleitz/midi-js-soundfonts.git"
   },
   "bugs": {
-    "url": "https://github.com/gleitz/midi-js-soundfonts//issues"
+    "url": "https://github.com/gleitz/midi-js-soundfonts/issues"
   },
   "contributors": [
     "M.K. (https://github.com/mk-pmb)",
