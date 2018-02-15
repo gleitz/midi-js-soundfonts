@@ -1,3 +1,11 @@
+# Notes on @paulrosen's fork
+
+The purpose of this fork is twofold:
+
+* The original does not contain the percussion track (Channel 10)
+
+* Because [abcjs](https://github.com/paulrosen/abcjs) depends on the soundfont, I wanted it in a place that I knew would not change. 
+ 
 # MIDI.js Soundfonts
 
 [MIDI.js](https://github.com/mudcube/MIDI.js) is a fantastic library for MIDI sequencing and playback in Javascript. It comes packaged with a [soundfont-generator](https://github.com/gleitz/MIDI.js/tree/master/soundfont-generator/) that is unfortuantely a little difficult to get up and running (requires installation of Ruby, Node.js, FluidSynth, Lame, etc.)
