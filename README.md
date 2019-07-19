@@ -20,10 +20,16 @@ Soundfonts Available
     - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/MusyngKite/
 
 - FatBoy Soundfont
-    - Generated from [FatBoy.sf2](https://fatboy.site) (330 MB uncompressed)
+    - Generated from [FatBoy.sf2](https://github.com/shivrajsa/midi-js-soundfonts/blob/gh-pages/Tabla-soundfont/Tabla.sf2) (4.06 MB uncompressed)
     - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
     - Instrument names as .json file [here](http://gleitz.github.io/midi-js-soundfonts/FatBoy/names.json)
     - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/FatBoy/
+
+- Tabla-Soundfont
+    - Tabla is a popular Indian percussion instrument. Not all notes contains sound in Tabla.sf2, sounds are mapped on notes C4 to E6. Use sound font software like [Viena](http://www.synthfont.com/index.html) to find details of each sound and MIDI key.
+    - Generated from Tabla.sf2 (4.06 MB uncompressed)
+    - Instrument name : Tabla is not standard MIDI instrument, you need to map it to appropriate instrument in your program.
+    
 
 
 Notes
