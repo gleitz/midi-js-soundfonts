@@ -20,7 +20,7 @@ Soundfonts Available
     - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/MusyngKite/
 
 - FatBoy Soundfont
-    - Generated from [FatBoy.sf2](https://github.com/shivrajsa/midi-js-soundfonts/blob/gh-pages/Tabla-soundfont/Tabla.sf2) (4.06 MB uncompressed)
+    - Generated from [FatBoy.sf2](https://fatboy.site) (330 MB uncompressed)
     - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
     - Instrument names as .json file [here](http://gleitz.github.io/midi-js-soundfonts/FatBoy/names.json)
     - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/FatBoy/
