@@ -8,13 +8,13 @@ Soundfonts Available
 ----
 
 - Fluid-Soundfont
-    - Generated from [FluidR3_GM.sf2](https://www.musescore.org/download/fluid-soundfont.tar.gz) (141 MB uncompressed)
+    - Generated from [FluidR3_GM.sf2](http://www.synthfont.com/SoundFonts/FluidR3_GM.sfArk) (141 MB uncompressed)
     - Released under [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/)
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/names.json)
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/
 
 - Musyng Kite Soundfont
-    - Generated from [Musyng Kite.sfpack](https://www.synthfont.com/punbb/viewtopic.php?id=167) (1 GB uncompressed)
+    - Generated from [Musyng Kite.sfpack](http://www.synthfont.com/SoundFonts/Musyng.sfpack) (1 GB uncompressed)
     - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/MusyngKite/names.json)
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/MusyngKite/
@@ -29,12 +29,12 @@ Soundfonts Available
     - Tabla is a popular Indian percussion instrument. Not all notes contain sound in Tabla.sf2, sounds are mapped on notes C4 to E6. Use sound font software like [Viena](https://www.synthfont.com/index.html) to find details of each sound and MIDI key.
     - Generated from Tabla.sf2 (4.06 MB uncompressed)
     - Instrument name : Tabla is not standard MIDI instrument, you need to map it to appropriate instrument in your program. For example, you can map it to `synth_drum`
-    
+
     ```javascript
     if (typeof(MIDI) === 'undefined') var MIDI = {};
     if (typeof(MIDI.Soundfont) === 'undefined') MIDI.Soundfont = {};
     MIDI.Soundfont.synth_drum = {
-    //Notes . . . 
+    //Notes . . .
     }
     ```
     Usage in [MIDI.js](https://github.com/mudcube/MIDI.js)
@@ -43,7 +43,7 @@ Soundfonts Available
     MIDI.noteOn(channel, note, velocity, delay);
     MIDI.noteOff(channel, note, delay);
     ```
-    
+
 
 
 Notes
