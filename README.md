@@ -7,7 +7,7 @@ This project contains pre-rendered [General MIDI](https://en.wikipedia.org/wiki/
 Soundfonts Available
 ----
 
-- Fluid-Soundfont
+- Fluid Soundfont
     - Generated from [FluidR3_GM.sf2](http://www.synthfont.com/SoundFonts/FluidR3_GM.sfArk) (148 MB uncompressed)
     - Released under [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/)
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/names.json)
@@ -25,29 +25,26 @@ Soundfonts Available
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/FatBoy/names.json)
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/FatBoy/
 
-- Tabla-Soundfont
-    - Tabla is a popular Indian percussion instrument. Not all notes contain sound in Tabla.sf2, sounds are mapped on notes C4 to E6. Use sound font software like [Viena](https://www.synthfont.com/index.html) to find details of each sound and MIDI key.
-    - Generated from Tabla.sf2 (4.06 MB uncompressed)
-    - Instrument name : Tabla is not standard MIDI instrument, you need to map it to appropriate instrument in your program. For example, you can map it to `synth_drum`
+- Tabla Soundfont
+    - Tabla is a popular Indian percussion instrument. Not all notes contain sound in Tabla.sf2, sounds are mapped on notes C4 to E6. Use sound font software like [Viena](https://www.synthfont.com/index.html) or `sforzando` to find details of each sound and MIDI key.
+    - Generated from [Tabla.sf2](https://gleitz.github.io/midi-js-soundfonts/Tabla/Tabla.sf2) (4.06 MB uncompressed)
+    - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/Tabla/names.json)
+    - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/Tabla/
+    - Note: Tabla is not standard MIDI instrument, you need to map it to an appropriate instrument in your program. For example, you can map it to `synth_drum`:
 
     ```javascript
-    if (typeof(MIDI) === 'undefined') var MIDI = {};
-    if (typeof(MIDI.Soundfont) === 'undefined') MIDI.Soundfont = {};
-    MIDI.Soundfont.synth_drum = {
-    //Notes . . .
-    }
-    ```
-    Usage in [MIDI.js](https://github.com/mudcube/MIDI.js)
-    ```javascript
-    //where `channel` is synth_drum channel number
-    MIDI.noteOn(channel, note, velocity, delay);
-    MIDI.noteOff(channel, note, delay);
-    ```
+    MIDI.loadPlugin({
+      soundfontUrl: "https://gleitz.github.io/midi-js-soundfonts/Tabla/"
+      instrument: "synth_drum",
+      onsuccess: function() { console.log("Tabla loaded as instrument synth_drum") }
+    });
 
+    MIDI.noteOn(0, 60, 127); // On channel 0 (default), play note C4 (id 60) with max velocity (127)
 
+    ```
 
 Notes
 -----
 
 - Fork of MIDI.js with parallized soundfont generation [available here](https://github.com/gleitz/MIDI.js).
-- You can fetch Soundfont files directly from this repository, so you can access them directly from a browser. Use the prefix URL following by the instrument name. For example: https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/marimba-mp3.js
+- You can fetch Soundfont files directly from this repository, so you can access them directly from a browser. Use the prefix URL followed by the instrument name. For example: https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/marimba-mp3.js
