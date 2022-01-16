@@ -5,7 +5,15 @@ The purpose of this fork is twofold:
 * The original does not contain the percussion track (Channel 10)
 
 * Because [abcjs](https://github.com/paulrosen/abcjs) depends on the soundfont, I wanted it in a place that I knew would not change. 
- 
+
+* The URLs mentioned below are for the gleitz version of the soundfonts. To use this version, the URLs are:
+
+```
+https://paulrosen.github.io/midi-js-soundfonts/abcjs/
+https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/
+https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/
+ ```
+
 # MIDI.js Soundfonts
 
 [MIDI.js](https://github.com/mudcube/MIDI.js) is a fantastic library for MIDI sequencing and playback in Javascript. It comes packaged with a [soundfont-generator](https://github.com/gleitz/MIDI.js/tree/master/soundfont-generator/) that is unfortuantely a little difficult to get up and running (requires installation of Ruby, Node.js, FluidSynth, Lame, etc.)
